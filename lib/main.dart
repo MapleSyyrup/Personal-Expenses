@@ -149,7 +149,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
     final pageBody = SingleChildScrollView(
       child: Column(
-        // mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           if (isLandscape)
